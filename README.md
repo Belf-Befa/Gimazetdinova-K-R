@@ -3,3 +3,13 @@
 Группа: ТРИС-1-23  
 Стек: Vue 3 + ASP.NET Core + PostgreSQL  
 Статус темы:  
+
+## Запуск клиента (Vue 3)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Открыть адрес Vite, обычно http://localhost:5173
