@@ -13,3 +13,10 @@ npm run dev
 ```
 
 Открыть адрес Vite, обычно http://localhost:5173
+
+## Запуск сервера (C# ASP.NET Core)
+
+```bash
+cd backend
+dotnet restore
+dotnet run
