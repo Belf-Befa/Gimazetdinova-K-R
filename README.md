@@ -20,3 +20,8 @@ npm run dev
 cd backend
 dotnet restore
 dotnet run
+```
+
+API: http://localhost:5000  
+Swagger: http://localhost:5000/swagger  
+Health: http://localhost:5000/health  
