@@ -25,3 +25,11 @@ dotnet run
 API: http://localhost:5000  
 Swagger: http://localhost:5000/swagger  
 Health: http://localhost:5000/health  
+
+## База данных (PostgreSQL)
+
+Схема и данные лежат в папке `db/`.
+Для применения выполните в pgAdmin или через psql:
+psql -d course_assembly -f db/schema.sql
+psql -d course_assembly -f db/seed.sql
+psql -d course_assembly -f db/queries.sql
