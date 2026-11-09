@@ -4,3 +4,4 @@ dist/
 .env
 **/bin/
 **/obj/
+appsettings.Development.json
